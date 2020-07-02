@@ -19,6 +19,10 @@ namespace GradeBookTests
         [Fact(DisplayName = "Create New Enum GradeBookType Tests @create-a-new-enum-gradebooktype")]
         public void CreateNewEnumGradeBookTypeTests()
         {
+          //  var relativeTo = @"C:\Users\assal\Downloads\c# interview\c#\InheritanceProject\CSharp-GradeBookApplication\GradeBookTests";
+            //var path = @"C:\Users\assal\Downloads\c# interview\c#\InheritanceProject\CSharp-GradeBookApplication\GradeBook\Enums\GradeBookType .cs";
+
+           // string relativePath = System.IO.Path.GetRelativePath(relativeTo, path);
             // Get appropriate path to file for the current operating system
             var filePath = ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + ".." + Path.DirectorySeparatorChar + "GradeBook" + Path.DirectorySeparatorChar + "Enums" + Path.DirectorySeparatorChar + "GradeBookType.cs";
 
